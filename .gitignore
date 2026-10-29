@@ -1,0 +1,11 @@
+bin/
+obj/
+dist/
+.vs/
+.idea/
+UserData/
+*.log
+*.dmp
+*.tmp
+outfit.json*
+compile.rsp

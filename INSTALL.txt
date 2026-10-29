@@ -1,0 +1,27 @@
+Native Wardrobe Cosmetics 0.9.0 - saved outfits, no host mod required
+
+For Windows Among Us 3D 1.22.2+226575 with MelonLoader 0.7.3 (IL2CPP).
+
+1. Close the game.
+2. Copy Mods/LocalCosmeticPreview.dll into your game's Mods folder.
+   Replace the old DLL and keep only one copy of this plugin in Mods.
+3. Start the game, join a lobby, open the normal wardrobe and select an item.
+
+Your outfit now saves automatically when you select an item. All four slots
+(hat, hands/gloves, skin and color) are retained in
+UserData/NativeWardrobe/outfit.json, with a backup beside it. Startup and lobby
+cosmetic initialization restore matching installed items through the game's
+normal equip flow. If your preferred color is taken, normal game rules apply.
+
+Choose your outfit once after installing this version to create the save.
+To reset it, close the game and remove outfit.json and outfit.json.bak.
+
+Only the wearer installs this mod. The host does not need it. There is no
+W/trigger acceptance step, no custom host prompt, and no approval handshake.
+The original game's equip and replication code handles syncing. A remote host
+can still reject an item; this plugin does not change remote validation.
+
+Another player's rendered appearance has not been independently verified.
+PCVR compatibility has not been validated. Standalone Quest/PSVR are unsupported.
+
+To uninstall, close the game and remove Mods/LocalCosmeticPreview.dll.

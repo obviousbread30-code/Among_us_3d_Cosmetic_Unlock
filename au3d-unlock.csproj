@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>LocalCosmeticPreview</AssemblyName>
+    <GameRoot Condition="'$(GameRoot)' == ''">$(MSBuildThisFileDirectory)..</GameRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Source\*.cs" />
+    <Reference Include="$(GameRoot)\MelonLoader\net6\MelonLoader.dll" Private="false" />
+    <Reference Include="$(GameRoot)\MelonLoader\net6\0Harmony.dll" Private="false" />
+    <Reference Include="$(GameRoot)\MelonLoader\net6\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(GameRoot)\MelonLoader\Il2CppAssemblies\*.dll" Private="false" />
+  </ItemGroup>
+</Project>
