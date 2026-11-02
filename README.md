@@ -11,7 +11,7 @@ Download **LocalCosmeticPreview.dll** from this repository's **Releases** page, 
 3. Replace any older copy of this plugin; keep only one copy in `Mods`.
 4. Start the game, open the normal wardrobe and choose your outfit.
 
-The in-game plugin name is **Native Wardrobe Cosmetics**, version **0.9.0**.
+The in-game plugin name is **Native Wardrobe Cosmetics**, version **0.9.1**. Author: **breadster**.
 
 ## Features
 

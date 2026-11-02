@@ -10,7 +10,7 @@ using ElementList = Il2CppSystem.Collections.Generic.List<Il2CppSG.Airlock.Custo
 using Category = Il2CppSG.Airlock.CustomizationElement.CosmeticType;
 using WardrobeMap = Il2CppSystem.Collections.Generic.Dictionary<Il2CppSG.Airlock.CustomizationElement.CosmeticType, Il2CppSystem.Collections.Generic.List<Il2CppSG.Airlock.CustomizationElement>>;
 
-[assembly: MelonInfo(typeof(LocalCosmeticPreview.PreviewMod), "Native Wardrobe Cosmetics", "0.9.0", "Scout")]
+[assembly: MelonInfo(typeof(LocalCosmeticPreview.PreviewMod), "Native Wardrobe Cosmetics", "0.9.1", "breadster")]
 [assembly: MelonGame("Schell Games", "Among Us 3D")]
 [assembly: HarmonyDontPatchAll]
 
@@ -52,7 +52,7 @@ namespace LocalCosmeticPreview
                 _outfit = new OutfitPersistence(message => LoggerInstance.Msg(message), message => LoggerInstance.Warning(message));
                 HarmonyInstance.PatchAll(typeof(PreviewMod).Assembly);
                 _ready = true;
-                LoggerInstance.Msg("Native wardrobe v0.9 ready. Outfit auto-save enabled; no host mod required.");
+                LoggerInstance.Msg("Native wardrobe v0.9.1 ready. Outfit auto-save enabled; no host mod required.");
             }
             catch (Exception ex)
             {

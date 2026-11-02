@@ -1,4 +1,6 @@
-Native Wardrobe Cosmetics 0.9.0 - saved outfits, no host mod required
+Native Wardrobe Cosmetics 0.9.1 - saved outfits, no host mod required
+
+Author: breadster
 
 For Windows Among Us 3D 1.22.2+226575 with MelonLoader 0.7.3 (IL2CPP).
 

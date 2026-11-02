@@ -1,4 +1,8 @@
-# au3d unlock v0.9.0
+# au3d unlock v0.9.1
+
+Author: **breadster**.
+
+This patch changes the author credit to breadster. Cosmetic and outfit-saving behavior is unchanged.
 
 Native wardrobe cosmetics with automatic outfit saving for Windows Among Us 3D **1.22.2+226575**, MelonLoader **0.7.3**, IL2CPP / .NET 6.
 
